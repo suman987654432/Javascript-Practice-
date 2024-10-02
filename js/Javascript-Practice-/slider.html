@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      #slider article div img {
+        width: 600px;
+        height:400px ;
+      }
+      #slider article{
+        display: flex;
+      }
+      #slider{
+        width: 600px;
+        height: 400px;
+        border: 2px solid black;
+        overflow: hidden;
+      }
+    </style>
+  </head>
+  <body onload="slider()">
+    <center>
+      <section id="slider">
+        <article id="sliderarticle">
+          <div><img src="./images/image1 (1).jpg" alt="" /></div>
+          <div><img src="./images/image1 (2).jpg" alt="" /></div>
+          <div><img src="./images/image1 (3).jpg" alt="" /></div>
+       
+        </article>
+      </section>
+    </center>
+    <script src="slider.js"></script>
+  </body>
+</html>

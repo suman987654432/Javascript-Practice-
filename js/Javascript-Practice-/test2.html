@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Image Gallery</title>
+    <link rel="stylesheet" href="test2.css">
+  </head>
+  <body>
+    <div class="input-container">
+      <form onsubmit="return handleSubmit()">
+        <input type="text" placeholder="Enter image URL 1" class="url-input" />
+        <input type="text" placeholder="Enter image URL 2" class="url-input" />
+        <input type="text" placeholder="Enter image URL 3" class="url-input" />
+        <input type="text" placeholder="Enter image URL 4" class="url-input" />
+        
+        <button type="submit">Submit</button>
+      </form>
+    </div>
+
+    <div class="image-row" id="imageRow"></div>
+
+  
+    <div class="large-image-container">
+      <img id="largeImage" class="large-image" src="" alt="" />
+    </div>
+<script src="test2.js"></script>
+  </body>
+</html>

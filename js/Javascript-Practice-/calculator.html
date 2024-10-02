@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <table align="center" bgcolor="silver" border="2px" cellspacing="20px" cellpadding="20px">
+        <tr bgcolor="white">
+            <td  colspan="4" id="showval">  </td>
+            
+        </tr>
+        <tr>
+            <td onclick="calculate(1)"> 1 </td>
+            <td onclick="calculate(2)"> 2 </td>
+            <td onclick="calculate(3)"> 3 </td>
+            <td onclick="calculate(4)"> 4 </td>
+        </tr>
+        <tr>
+            <td onclick="calculate(5)"> 5 </td>
+            <td onclick="calculate(6)"> 6 </td>
+            <td onclick="calculate(7)"> 7 </td>
+            <td onclick="calculate(8)"> 8 </td>
+        </tr>
+    <tr>
+            <td onclick="calculate(9)"> 9 </td>
+            <td onclick="calculate(0)" > 0 </td>
+            <td onclick="calculate('+')"> + </td>
+            <td onclick="calculate('-')"> - </td>
+        </tr>
+        <tr>
+            <td onclick="calculate('/')"> / </td>
+            <td onclick="calculate('*')"> * </td>
+            <td onclick="calculate('%')"> % </td>
+            <td onclick="sq()"> n<sup>2</sup> </td>
+        </tr>
+        <tr>
+            <td onclick="del()"> DEL</td>
+            <td onclick="root()"> sroot </td>
+            <td onclick="ac()"> AC </td>
+            <td onclick="output()"> = </td>
+        </tr>
+    </table>
+
+    <script src="calc.js"></script>
+</body>
+</html>

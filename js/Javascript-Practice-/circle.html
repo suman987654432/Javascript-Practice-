@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form with Captcha</title>
+    <link rel="stylesheet" href="circle.css">
+</head>
+<body>
+    <form onsubmit="return registration()">
+        <input type="text" placeholder="Enter name" class="name" required>
+        <input type="email" placeholder="Enter email" class="email" required>
+        <input type="password" placeholder="Enter pass" class="pass" required>
+        <input type="password" placeholder="Confirm pass" class="cpass" required>
+        <input type="text" placeholder="Enter mobile" class="mobile" required>
+
+        <!-- Captcha section -->
+        <div id="captcha"></div>
+        <input type="text" placeholder="Enter captcha" class="captchaInput" required>
+
+        <button type="submit">Registration</button>
+    </form>
+
+    <script src="circle.js"></script>
+</body>
+</html>

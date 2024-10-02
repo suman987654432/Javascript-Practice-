@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dynamic Card with Image Upload</title>
+    <link rel="stylesheet" href="day13.css" />
+  </head>
+  <body>
+    <!-- Form Section -->
+    <form id="userForm">
+      <label for="username">Name:</label>
+      <input type="text" id="username" name="username" required /><br /><br />
+
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" required /><br /><br />
+
+      <label for="profession">Profession:</label>
+      <input type="text" id="profession" name="profession" required /><br /><br />
+
+      <label for="mobile">Mobile:</label>
+      <input type="text" id="mobile" name="mobile" required /><br /><br />
+
+      <label for="address">Address:</label>
+      <input type="text" id="address" name="address" required /><br /><br />
+
+      <button type="submit">Submit</button>
+    </form>
+
+    <!-- Image Upload Section (Hidden Initially) -->
+    <div class="upload-section" style="display:none;">
+      <label for="imageUpload">Upload Image:</label>
+      <input type="file" id="imageUpload" accept="image/*" /><br /><br />
+      <button id="uploadButton">Upload Image</button>
+    </div>
+
+    <!-- Display card -->
+    <div class="showcard"></div>
+
+    <script src="day13.js"></script>
+  </body>
+</html>
